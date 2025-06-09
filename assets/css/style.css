@@ -46,8 +46,28 @@ background-color: yellow;
   background-color: rgb(183, 183, 183);
 }
 
+.bg-green{
+  background-color: green;
+}
+
+.bg-salmon{
+  background-color: salmon;
+}
+
+.bg-dark{
+  background-color: #23272a;
+}
+
+.bg-wgreen{
+  background-color: #20b3aa;
+}
+
 .padding10 {
   padding: 10px 50px;
+}
+
+.col15{
+  width: 15%;
 }
 
 .col25{
@@ -78,6 +98,10 @@ background-color: yellow;
   border: dotted 2px black;
 }
 
+.border-d-white{
+  border: dotted white 1px;
+}
+
 .container{
   max-width: 1000px;
   min-height: 350px;
@@ -95,4 +119,12 @@ background-color: yellow;
 
 .container-wide{
   max-width: 100%;
+  padding: 20px 0;
+}
+
+.container-high{
+  width: 1000px;
+  height: 500px;
+  justify-self: center;
+  align-self: center;
 }
