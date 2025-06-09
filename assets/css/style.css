@@ -34,6 +34,14 @@ background-color: yellow;
   background-color: blue;
 }
 
+.bg-white{
+  background-color: rgb(245, 15, 15);
+}
+
+.bg-pink{
+  background-color: pink;
+}
+
 .padding10 {
   padding: 10px 50px;
 }
@@ -42,8 +50,16 @@ background-color: yellow;
   width: 25%;
 }
 
+.col40{
+  width: 40%;
+}
+
 .col50{
   width: 50%;
+}
+
+.col60{
+  width: 60%;
 }
 
 .col100{
@@ -55,13 +71,16 @@ background-color: yellow;
 }
 
 .container{
-  max-width: 1200px;
+  max-width: 1000px;
+  min-height: 350px;
   margin: 0 auto;
+  display: flex;
+  padding: 20px 0;
 }
 
 .container-sm{
- width: 700px;
- min-height: 350px;
+ width: 500px;
+ min-height: 250px;
  justify-self: center;
  align-self: center;
 }
