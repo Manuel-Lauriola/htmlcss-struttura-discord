@@ -42,6 +42,10 @@ background-color: yellow;
   background-color: pink;
 }
 
+.bg-grey{
+  background-color: rgb(183, 183, 183);
+}
+
 .padding10 {
   padding: 10px 50px;
 }
@@ -83,4 +87,8 @@ background-color: yellow;
  min-height: 250px;
  justify-self: center;
  align-self: center;
+}
+
+.container-wide{
+  max-width: 100%;
 }
