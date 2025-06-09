@@ -6,7 +6,6 @@
 
 header{
     padding: 15px 0px;
-    margin-bottom: 50px;
     background-color: cyan;
     display: flex;
     align-items: center;
@@ -15,13 +14,24 @@ header{
 
 /*utility*/
 
-
 .border-black{
   border: solid 2px black;
 }
 
 .bg-yellow{
 background-color: yellow;
+}
+
+.bg-pink2{
+  background-color: rgb(185, 99, 113);
+}
+
+.bg-violet{
+  background-color: blueviolet;
+}
+
+.bg-blue{
+  background-color: blue;
 }
 
 .padding10 {
@@ -34,4 +44,24 @@ background-color: yellow;
 
 .col50{
   width: 50%;
+}
+
+.col100{
+  width: 100%;
+}
+
+.py20{
+  padding: 20px 0;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-sm{
+ width: 700px;
+ min-height: 350px;
+ justify-self: center;
+ align-self: center;
 }
