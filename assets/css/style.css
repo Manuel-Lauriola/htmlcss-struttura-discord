@@ -74,6 +74,10 @@ background-color: yellow;
   padding: 20px 0;
 }
 
+.border-dotted{
+  border: dotted 2px black;
+}
+
 .container{
   max-width: 1000px;
   min-height: 350px;
