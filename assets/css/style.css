@@ -1,0 +1,37 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+    padding: 15px 0px;
+    margin-bottom: 50px;
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*utility*/
+
+
+.border-black{
+  border: solid 2px black;
+}
+
+.bg-yellow{
+background-color: yellow;
+}
+
+.padding10 {
+  padding: 10px 50px;
+}
+
+.col25{
+  width: 25%;
+}
+
+.col50{
+  width: 50%;
+}
